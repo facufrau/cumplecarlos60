@@ -32,9 +32,8 @@ p {
 .letter-title-style {
     font-family: "Love Ya Like A Sister", cursive;
     font-style: normal;
-  }
+}
  
-
 /* Botón de Google Maps */
 .map-button {
     display: block;
@@ -52,6 +51,13 @@ p {
 .map-button:hover {
     background-color: #27714e;
     scale: 1.05;
+}
+
+.responsive-image {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
 }
 /* Estilos para la sección de Confirmación de Asistencia */
 .confirmation {
@@ -86,13 +92,6 @@ p {
     scale: 1.05;
 }
 
-.responsive-image {
-    display: block;
-    max-width: 100%;
-    height: auto;
-    margin: 20px auto;
-}
-
 footer {
     background-color: #f1fec1;
     padding: 20px;
@@ -105,10 +104,4 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-}
-
-#gh-icon {
-    width: 24px;
-    height: 24px;
-    margin-right: 10px;
 }
